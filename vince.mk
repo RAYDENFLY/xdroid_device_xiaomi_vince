@@ -14,11 +14,11 @@
 # limitations under the License.
 #
 
-# Inherit Octavi product configuration
-$(call inherit-product, device/xiaomi/vince/octavi_vince.mk)
+# Inherit SyberiaOS product configuration
+$(call inherit-product, device/xiaomi/vince/syberia_vince.mk)
 
-# Remove Octavi prefix from product name
+# Remove syberia prefix from product name
 PRODUCT_NAME := vince
 
-# Identify Octavi Device identifier
-OCTAVI_BUILD := vince
+# Syberia Device identifier
+SYBERIA_BUILD := vince
