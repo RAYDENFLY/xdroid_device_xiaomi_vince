@@ -14,9 +14,11 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_vince.mk
+    $(LOCAL_DIR)/nad_vince.mk \
+    $(LOCAL_DIR)/vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    fluid_vince-user \
-	fluid_vince-userdebug \
-    fluid_vince-eng
+    nad_vince-user \
+    nad_vince-userdebug \
+    nad_vince-eng \
+    vince-userdebug
