@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 Xdroix
+# Copyright (C) 2022 Xdroid
 #
 # SPDX-License-Identifier: Apache-2.0
 #
